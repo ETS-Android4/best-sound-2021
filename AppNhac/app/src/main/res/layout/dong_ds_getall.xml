@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/cardview_hinh_baihatyeuthich"
+        android:layout_alignTop="@+id/imgviewBackground_baihatyeuthich"
+        android:layout_width="165dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp"
+        android:layout_height="165dp">
+
+        <ImageView
+            android:src="@drawable/no_image"
+            android:scaleType="fitXY"
+            android:id="@+id/imgview_hinh_dsGetAll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginLeft="5dp"
+        android:gravity="left"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:id="@+id/txtview_ten_dsGetAll"
+        android:text="Ten Playlist"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:lines="1"
+        android:gravity="left"
+        android:maxLines="1"
+        android:id="@+id/txtview_tencasi_dsGetAll"
+        android:text="Ten casi"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+</LinearLayout>

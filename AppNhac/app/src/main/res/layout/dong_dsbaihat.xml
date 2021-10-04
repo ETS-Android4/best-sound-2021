@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_dongdsbh"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_hinhbh_dongdsbh"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp"
+        android:layout_alignTop="@+id/background_dongdsbh"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/no_image"
+            android:scaleType="fitXY"
+            android:id="@+id/imgview_hinhbh_dongdsbh"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/background_dongdsbh"
+        android:layout_toRightOf="@+id/cardview_hinhbh_dongdsbh"
+        android:layout_width="200dp"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:id="@+id/txtview_tenbaihat_dsbh"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:text="Tên Bài Hát">
+        </TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:id="@+id/txtview_tencasi_dsbh"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Tên Ca Sĩ">
+        </TextView>
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/icon_LuotThich_dsbh"
+            android:src="@drawable/iconlove"
+            android:layout_width="20dp"
+            android:layout_height="20dp">
+        </ImageView>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/icon_moreoption_dongdsbh"
+        android:background="@null"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignEnd="@id/background_dongdsbh"
+        android:src="@drawable/icon_more4"
+        android:layout_width="30dp"
+        android:layout_height="40dp">
+    </ImageButton>
+
+</RelativeLayout>

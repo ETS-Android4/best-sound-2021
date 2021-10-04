@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#F0FFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="2dp"
+            app:cardCornerRadius="5dp"
+            android:id="@+id/cardview_playmusicminium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgview_hinh_playmusicminium"
+            android:src="@drawable/no_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+        </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_marginLeft="7dp"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/cardview_playmusicminium"
+            android:layout_width="150dp"
+            android:layout_height="60dp">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="no name"
+                android:lines="1"
+                android:ellipsize="end"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:id="@+id/imgview_tenbh_playmusicminium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TextView>
+
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="no artist"
+                android:lines="1"
+                android:ellipsize="end"
+                android:textSize="13sp"
+                android:id="@+id/imgview_tencasi_playmusicminium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">>
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:weightSum="3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="220dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imagebutton_previous_playminium"
+                android:layout_weight="1"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:src="@drawable/icon_previous_minium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/imagebutton_play_playminium"
+                android:layout_weight="1"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:src="@drawable/icon_play_minium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/imagebutton_next_playminium"
+                android:layout_weight="1"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:src="@drawable/icon_next_minium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </ImageButton>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
