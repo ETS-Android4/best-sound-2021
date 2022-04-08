@@ -5,7 +5,7 @@
 # Demo
 - https://youtu.be/72bvRZppxw8
 # Screenshots
-![](images/2.jpg)
+![](Images/1.jpg) ![](Images/2.jpg) ![](Images/3.jpg)
 # Technologies
 - Java
 - php
