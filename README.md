@@ -8,4 +8,4 @@
 # Technologies
 - Java
 - php
-- Server free from https://vn.000webhost.com/
+- Free server from https://vn.000webhost.com/
