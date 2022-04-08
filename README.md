@@ -6,4 +6,6 @@
 - https://youtu.be/GkfmKDc3Yqc
 # Screenshots
 # Technologies
-java
+- Java
+- php
+- Server free from https://vn.000webhost.com/
