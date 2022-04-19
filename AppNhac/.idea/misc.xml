@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Window Folders/Downloads/App Nhac/Android App/AppNhac/app/src/main/res/drawable/iconlove.xml" value="0.2265" />
+        <entry key="..\:/Window Folders/Downloads/App Nhac/Android App/AppNhac/app/src/main/res/drawable/iconloved.xml" value="0.124" />
+        <entry key="..\:/Window Folders/Downloads/App Nhac/Android App/AppNhac/app/src/main/res/layout/activity_top100.xml" value="0.11302083333333333" />
+        <entry key="..\:/Window Folders/Downloads/App Nhac/Android App/AppNhac/app/src/main/res/layout/dong_dsbaihat.xml" value="0.22826086956521738" />
+        <entry key="..\:/Window Folders/Downloads/App Nhac/Android App/AppNhac/app/src/main/res/layout/dong_top100.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3125643666323378" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

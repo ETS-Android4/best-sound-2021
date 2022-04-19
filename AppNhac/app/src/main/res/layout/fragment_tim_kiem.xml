@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative_search"
+        android:background="#FF5722"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/etxt_search"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="80dp"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:hint="Nhập từ khoá "
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/imgbtn_search"
+            android:background="#FFFFFF"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="200dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_search2"
+            android:layout_width="40dp"
+            android:layout_height="39.3dp">
+        </ImageButton>
+    </RelativeLayout>
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtview_thongbao_search"
+        android:layout_below="@+id/relative_search"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel_timkiem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/recycleview_search"
+        android:layout_below="@+id/txtview_thongbao_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>
+
+

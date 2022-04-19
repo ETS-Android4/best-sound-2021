@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel_dsbaihat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/coordinatorLayout_dsbaihat"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:fitsSystemWindows="true"
+                android:id="@+id/appbarLayout_dsbaihat"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    app:expandedTitleGravity="center|bottom"
+                    android:fitsSystemWindows="true"
+                    app:expandedTitleMarginBottom="30dp"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                    android:background="#AFAFE8"
+                    android:id="@+id/collapsingToolbar_dsbaihat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:weightSum="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.Toolbar
+                            android:layout_weight="1.88"
+                            app:layout_collapseMode="pin"
+                            android:popupTheme="@style/Theme.AppCompat.Light"
+                            android:id="@+id/Toolbar_dsbaihat"
+                            android:elevation="6dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </androidx.appcompat.widget.Toolbar>
+
+                        <ImageButton
+                            android:layout_marginTop="3dp"
+                            android:layout_weight="0.12"
+                            android:id="@+id/imgbutton_moreoption_dsbaihat"
+                            android:background="@null"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/icon_more4"
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent">
+                        </ImageButton>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_marginTop="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/cardview_hinhchude_dsbaihat"
+                            android:layout_width="130dp"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            app:cardCornerRadius="10dp"
+                            android:layout_height="130dp">
+
+                            <ImageView
+                                android:elevation="6dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/no_image"
+                                android:id="@+id/imgview_hinh_dsbaihat"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp">
+                            </ImageView>
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/txtview_noidung_dsbaihat"
+                            android:layout_marginTop="80dp"
+                            android:layout_toRightOf="@+id/cardview_hinhchude_dsbaihat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textStyle="bold"
+                            android:maxLines="2"
+                            android:textSize="18sp"
+                            android:text="noi dung">
+                        </TextView>
+
+                        <TextView
+                            android:textSize="15sp"
+                            android:maxLines="1"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/txtview_tencasi_dsbaihat"
+                            android:layout_marginTop="145dp"
+                            android:layout_toRightOf="@+id/cardview_hinhchude_dsbaihat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ca si">
+                        </TextView>
+                    </RelativeLayout>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                app:fabSize="normal"
+                android:scaleType="fitXY"
+                android:backgroundTint="#E91E63"
+                app:layout_behavior="@string/bottom_sheet_behavior"
+                android:id="@+id/floatingbutton_dsbaihat"
+                android:src="@drawable/iconfloatingactionbutton"
+
+                app:layout_anchorGravity="bottom|center"
+                app:layout_anchor="@id/appbarLayout_dsbaihat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+            <androidx.core.widget.NestedScrollView
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_width="match_parent"
+                android:layout_marginTop="35dp"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:id="@+id/recycleview_dsbaihat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </androidx.recyclerview.widget.RecyclerView>
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <fragment
+            android:id="@+id/fragment_playmusic_minium2"
+            android:name="com.example.appnhac.Fragment.Fragment_Playmusic_minium2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#6495ED</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#03A9F4</color>
+    <color name="background_1">#AFAFE8</color>
+    <color name="background_2">#93C0D5</color>
+    <color name="background_3">#F1E1E6</color>
+    <color name="background_4">#E8D8C1</color>
+    <color name="background_5">#B6CDCB</color>
+    <color name="background_6">#B2BAE6</color>
+
+    <color name="background_7">#DAC5C8</color>
+    <color name="background_8">#DAC9CE</color>
+    <color name="background_9">#D8C7D8</color>
+    <color name="background_10">#D6C4D6</color>
+    <color name="background_11">#D5C1C1</color>
+    <color name="background_12">#D1C5C1</color>
+
+    <color name="background_13">#D6C9C6</color>
+    <color name="background_14">#BFCDD1</color>
+    <color name="background_15">#C3D0D5</color>
+    <color name="background_16">#D6C6C6</color>
+    <color name="background_17">#DAC8C8</color>
+    <color name="background_18">#D6D6C4</color>
+    <color name="background_whenclick">#DCDCDC</color>
+    <color name="red">#FF0000</color>
+
+
+
+</resources>

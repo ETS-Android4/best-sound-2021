@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/fragment_banner"
+            android:name="com.example.appnhac.Fragment.Fragment_Banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:layout_marginTop="20dp"
+            android:id="@+id/fragment_menu"
+            android:name="com.example.appnhac.Fragment.Fragment_Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:layout_marginTop="25dp"
+            android:id="@+id/fragment_playlist"
+            android:name="com.example.appnhac.Fragment.Fragment_Playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+        <fragment
+            android:layout_marginTop="20dp"
+            android:id="@+id/fragment_chude"
+            android:name="com.example.appnhac.Fragment.Fragment_ChuDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+
+        <fragment
+            android:layout_marginTop="25dp"
+            android:id="@+id/fragment_album"
+            android:name="com.example.appnhac.Fragment.Fragment_Album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+
+        <fragment
+            android:layout_marginTop="20dp"
+            android:id="@+id/fragment_baihatgoiy"
+            android:name="com.example.appnhac.Fragment.Fragment_BaiHatGoiY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </fragment>
+    </LinearLayout>
+</ScrollView>
