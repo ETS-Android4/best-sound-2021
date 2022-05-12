@@ -7,9 +7,9 @@
 - php
 - Free server from https://vn.000webhost.com/
 # Android (file .apk)
-- https://drive.google.com/file/d/1WM8WX2MuiNJ5dla6gF_9BLCxHpOqmyGD/view?usp=sharing
+- [APK](https://drive.google.com/file/d/1WM8WX2MuiNJ5dla6gF_9BLCxHpOqmyGD/view?usp=sharing)
 # Demo
-- https://youtu.be/72bvRZppxw8
+- [Demo](https://youtu.be/72bvRZppxw8)
 # Screenshots
 <kbd>
   <img src="Images/1.jpg">
