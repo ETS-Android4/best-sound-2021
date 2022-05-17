@@ -1,4 +1,5 @@
 # Best Sound 2021
+- Personal project
 - Entertainment Music Application 
 - Inspired by [Zing MP3](https://play.google.com/store/apps/details?id=com.zing.mp3), [NhacCuaTui](https://play.google.com/store/apps/details?id=ht.nct&hl=vi&gl=US)
 # Technologies
