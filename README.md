@@ -5,7 +5,7 @@
 # Technologies
 - Java
 - php
-- Free Web Hosting from https://vn.000webhost.com/
+- Free web hosting from https://vn.000webhost.com/
 # Android (file .apk)
 - [APK](https://drive.google.com/file/d/1WM8WX2MuiNJ5dla6gF_9BLCxHpOqmyGD/view?usp=sharing)
 # Demo
